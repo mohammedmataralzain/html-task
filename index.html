@@ -4,9 +4,66 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <!-- The favicon -->
+    <link rel="shortcut icon" href="https://media.flaticon.com/dist/min/img/favicon.ico">
+    <!-- The Main css file -->
+    <link rel="stylesheet" href="style.css">
+    <title> Task 1</title>
 </head>
 <body>
-    
+    <h1>Basic HTML Form</h1>
+    <!-- Form qustion-->
+    <form action="">
+       <fieldset>
+           <!-- The first qustion  -->
+           <legend>Name:</legend>
+           <label for="fname">First name:</label><br>
+           <input type="text" id="fname" name="fname"><br>
+           <label for="lname">Last name:</label><br>
+           <input type="text" id="lname" name="lname"><br><br>
+   
+       </fieldset>
+   
+       <fieldset>
+   
+           <legend>Other Questions:</legend>
+
+           <!-- The Second qustion  -->
+           
+           <p>Choose a drink :</p>
+           <input type="radio" id="drink1" name="drink1" value="Coffee">
+           <label for="drink1">Coffee</label><br>
+           <input type="radio" id="drink2" name="drink2" value="tea" checked>
+           <label for="drink2">tea</label><br>
+           <input type="radio" id="drink3" name="drink3" value="hot chocolate">
+           <label for="drink3">hot chocolate</label>
+
+           <!-- The Third qustion  -->
+   
+           <p>What ice cream do you like?</p>
+           <input type="checkbox" id="icecream1" name="icecream1" value="Chocolate">
+           <label for="icecream1"> Chocolate</label><br>
+           <input type="checkbox" id="icecream2" name="icecream2" value="Chocolate Pudding">
+           <label for="icecream2">Chocolate Pudding</label><br>
+           <input type="checkbox" id="icecream3" name="icecream3" value="Chocolate Peanut Butter" checked>
+           <label for="icecream3"> Chocolate Peanut Butter </label><br>
+           <input type="checkbox" id="icecream4" name="icecream4" value="Vanilla">
+           <label for="icecream4">Vanilla</label><br>
+           <input type="checkbox" id="icecream5" name="icecream5" value="Strawberry">
+           <label for="icecream5">Strawberry</label><br>
+           <br>
+           <label for="schools">Select a school:</label><br>
+           <select id="schools" name="schools">
+           <option value="Harvard">Harvard</option>
+           <option value="Mission Possible">Mission Possible</option>
+           <option value="A+ Academy">A+ Academy</option>
+           <option value="Scholar Center">Scholar Center</option>
+           </select>
+          <!-- The comments -->
+           <p>Please provide comments:</p>
+           <textarea name="comments" style="width:200px; height:70px;">
+               </textarea>
+         </fieldset>
+     </form>
 </body>
 </html>
